@@ -1,6 +1,6 @@
-## ChatPDF Simple Clone
+## Vector Search for ChatPDF
 
-Next.js를 이용한 ChatPDF 클론 샘플
+PDF 파일을 읽어 VectorDB 화하고, 쿼리에 대한 Vector Search 결과를 제공하는 간단한 API 서버
 
 다음의 프롬프트 엔지니어링 강의에서 사용하는 샘플입니다.
 
