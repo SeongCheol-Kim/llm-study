@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const CHAT_SERVER_URL = "https://ddff-34-123-140-81.ngrok-free.app";
+const CHAT_SERVER_URL = "https://ddff-34-123-140-81.ngrok-free.app"; // should be change
 
 export async function POST(req: NextRequest) {
   const { message } = await req.json();
