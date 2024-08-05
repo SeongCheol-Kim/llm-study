@@ -157,4 +157,4 @@ if __name__ == "__main__":
     print("Start process")
     parallel_process_images(anno, image_base_path, output_file, batch_size=5)
 
-    # new_anno.to_csv("../data/imaterialist-fashion-2020-fgvc7/new_annotations.csv", index=False)
+    # new_anno.to_csv("../data/imaterialist-fashion-2020-fgvc7/new_annotations.csv", index=False) 
