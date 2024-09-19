@@ -61,7 +61,7 @@ def clothes_detector(image, feature_extractor, model, thresh=0.5):
     merged_bbox, merged_labels = merge_boxes(keep_bboxes, keep_indices)
 
     # cropping
-    categories = pd.read_csv("categories.csv")
+    categories = pd.read_csv("../data/imaterialist-fashion-2020-fgvc7/categories.csv")
     cropped_images = dict()
 
     for label, box in zip(merged_labels, merged_bbox):
